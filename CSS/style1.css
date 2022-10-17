@@ -1,52 +1,15 @@
-head {
+body{
     background-color: #000000;
 }
 
-body{
-    background-color: #000000;
-    color: #000000
+#nome {
+    color: #e4e4e4;
 }
 
 h1 {
     color: blue;
 }
 
-#n1 {
-    color: #e4e4e4;
-}
-
-#n2 {
-    color: #e4e4e4;
-}
-
-#n3 {
-    color: #e4e4e4;
-}
-
-#n4 {
-    color: #e4e4e4;
-}
-
-#n5 {
-    color: #e4e4e4;
-}
-
-#n6 {
-    color: #e4e4e4;
-}
-
-#n7 {
-    color: #e4e4e4;
-}
-
-#n8 {
-    color: #e4e4e4;
-}
-
-#n9 {
-    color: #e4e4e4;
-}
-
-#n0 {
+#n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n0 {
     color: #e4e4e4;
 }
