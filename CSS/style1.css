@@ -22,6 +22,8 @@ h1 {
     color: var(--cor2);
     margin: auto;
     display: flex;
+    position: relative;
+    margin: 5px;
     justify-content: center;
     padding-bottom: 25px;
 }
@@ -237,6 +239,8 @@ h1 {
 #display {
     display: block;
     position: relative;
+    background-color: var(--cor5);
+    padding: 10px;
 
 }
 
