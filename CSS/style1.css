@@ -1,15 +1,242 @@
-body{
-    background-color: #000000;
-}
+:root {
+    --cor1: #000000;
+    --cor2: #e4e4e4;
+    --cor3: #2e3133;
+    --cor4: #ec9407;
+    --cor5: #e4e4e4a2;
+   }
 
-#nome {
-    color: #e4e4e4;
+body{
+    background-color: var(--cor1);
 }
 
 h1 {
-    color: blue;
+    color: var(--cor4);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
 }
 
-#n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n0 {
-    color: #e4e4e4;
+#nome {
+    color: var(--cor2);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
 }
+
+
+
+#n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n0, #nvirg {
+    color: var(--cor2);
+    background-color: var(--cor3);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35px;
+    margin: auto;
+}
+
+#nporc, #nmm {
+    color: var(--cor1);
+    background-color: var(--cor5);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35px;
+    margin: auto;
+}
+
+#ac{
+    color: var(--cor1);
+    background-color: var(--cor5);
+    font-size: 1.5em;
+    text-align: ;
+    border-radius: 100%;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35px;
+    margin: auto;
+}
+
+#n0 {
+    color: var(--cor2);
+    background-color: var(--cor3);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 30%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    width: 10px;
+    margin: auto;
+}
+
+#ndiv, #nmulti, #nmais, #nmenos, #nigual  {
+    color: var(--cor2);
+    background-color: var(--cor4);
+    font-size: 2em;
+    text-align: center;
+    border-radius: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35px;
+    margin: auto;
+}
+
+#ac {
+    display: block;
+    position: relative;
+    top: 120px;
+    left: -90px;
+}
+
+#nmm {
+    display: block;
+    position: relative;
+    top: 63.5px;
+    left: -30px;  
+}
+
+#nporc {
+    display: block;
+    position: relative;
+    top: 7px;
+    left: 30px;
+}
+
+#ndiv {
+    display: block;
+    position: relative;
+    top: -48.5px;
+    left: 90px; 
+}
+
+#n7 {
+    display: block;
+    position: relative;
+    top: -43px;
+    left: -90px;
+}
+
+#n8 {
+    display: block;
+    position: relative;
+    top: -99px;
+    left: -30px;   
+}
+
+#n9 {
+    display: block;
+    position: relative;
+    top: -154px;
+    left: 30px;  
+}
+
+#nmulti {
+    display: block;
+    position: relative;
+    top: -210.5px;
+    left: 90px; 
+}
+
+
+#n4 {
+    display: block;
+    position: relative;
+    top: -206px;
+    left: -90px;
+}
+
+#n5 {
+    display: block;
+    position: relative;
+    top: -261.5px;
+    left: -30px;  
+}
+
+#n6 {
+    display: block;
+    position: relative;
+    top: -318px;
+    left: 30px;  
+    
+}
+
+#nmenos {
+    display: block;
+    position: relative;
+    top: -374px;
+    left: 90px;  
+}
+
+
+#n1 {
+    display: block;
+    position: relative;
+    top: -368px;
+    left: -90px;
+}
+
+#n2 {
+    display: block;
+   position: relative;
+    top: -424px;
+    left: -30px; 
+}
+
+#n3 {
+    display: block;
+    position: relative;
+    top: -481px;
+    left: 30px;
+}
+
+#nmais {
+    display: block;
+    position: relative;
+    top: -537px;
+    left: 90px;
+}
+
+#n0 {
+    display: block;
+    position: relative;
+    top: -530px;
+    left: -60px;
+}
+
+#nvirg {
+    display: block;
+    position: relative;
+    top: -586px;
+    left: 30px;
+}
+
+#nigual {
+    display: block;
+    position: relative;
+    top: -642px;
+    left: 90px;
+}
+
+#display {
+    display: block;
+    position: relative;
+
+}
+
