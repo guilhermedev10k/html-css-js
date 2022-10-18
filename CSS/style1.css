@@ -236,11 +236,17 @@ h1 {
     left: 90px;
 }
 
-#display {
-    display: block;
+
+#display2 {
+    display: flex;
     position: relative;
     background-color: var(--cor5);
     padding: 10px;
-
+    top: -1063px;
+    left: 0px;
+    width: 220px;
+    height: 65px;
+    border-radius: 20px;
+    margin: auto;
 }
 
