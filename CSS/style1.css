@@ -249,5 +249,7 @@ h1 {
     height: 65px;
     border-radius: 20px;
     margin: auto;
+    font-size: 2em;
+    text-align: right;
 }
 
